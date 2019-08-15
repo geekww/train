@@ -1,0 +1,9 @@
+
+.w33{
+    width: 33.333333%;
+}
+@for $i from 1 through 20{
+    .w#{$i*5}{
+        width:$i*5#{'%'};
+    }
+}

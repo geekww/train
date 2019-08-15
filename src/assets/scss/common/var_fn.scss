@@ -1,0 +1,33 @@
+@import './themes.scss';
+//计算单位函数
+@function computed($number) {
+    @return ($number/750)*100vw
+};
+@function computed1($number1) {
+    @return ($number1/1334)*100vh
+};
+
+$maincolor: #C41717;
+$blackcolor: #0d0e09;
+$blackcolor-1: rgba(116, 116, 116, 1);
+
+// 主题选择器
+@mixin themeify {
+    @each $theme-name, $theme-map in $themes {
+        $theme-map: $theme-map !global;
+        html[data-theme=#{$theme-name}] & {
+            @content;
+        }
+    }
+}
+@function themed($key) {
+    @return map-get($theme-map, $key);
+}
+
+$primary-color: #333;     // 主色调
+$border-color: #E5E5E5;      // 边框色
+$body-background: #F8FAFB;   // body背景色
+$common-background: #FAFAFA;   // 组件背景色
+
+
+

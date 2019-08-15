@@ -1,0 +1,42 @@
+.overflow-scroll-x {
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling : touch;
+}
+.overflow-scroll-y {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling : touch;
+}
+
+// 箭头旋转动效
+.rotatingUp {
+    transition: all 0.5s;
+    transform: rotate(-180deg);
+    display: inline-block;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.rotatingDown {
+    transition: all 0.5s;
+    display: inline-block;
+}
+
+.arrowRight{
+    transition: all 0.5s;
+    transform: rotate(-90deg);
+    display: inline-block;
+}
+
+
+
+
