@@ -11,7 +11,7 @@
     "core-js": "^2.6.5",
     "element-ui": "^2.11.1",
     "vue": "^2.6.10",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.13.1",
     "sass-loader": "^7.0.1"
   },
   "devDependencies": {
@@ -23,7 +23,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.6.10",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.13.1",
     "sass-loader": "^7.0.1"
   },
   "eslintConfig": {
